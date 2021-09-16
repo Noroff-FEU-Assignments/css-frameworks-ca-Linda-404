@@ -18,13 +18,18 @@ import newsImageEight from "./newsimages/news-8.jpg";
 function News() {
   return (
     <>
-        <h1>news</h1>
-        <ButtonGroup aria-label="Basic example">
-            <Button variant="secondary">1</Button>
-            <Button variant="secondary">2</Button>
-            <Button variant="secondary">3</Button>
-            <Button variant="secondary">4</Button>
-        </ButtonGroup>
+        <Container>
+            <h1>news</h1>
+        </Container>
+
+        <Container>
+            <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary">1</Button>
+                <Button variant="secondary">2</Button>
+                <Button variant="secondary">3</Button>
+                <Button variant="secondary">4</Button>
+            </ButtonGroup>
+        </Container>
 
         <Container>
             <Row>
@@ -134,13 +139,15 @@ function News() {
                 </Col>
             </Row>
         </Container>
-
-        <ButtonGroup aria-label="Basic example">
-            <Button variant="secondary">1</Button>
-            <Button variant="secondary">2</Button>
-            <Button variant="secondary">3</Button>
-            <Button variant="secondary">4</Button>
-        </ButtonGroup>
+        
+        <Container>
+            <ButtonGroup aria-label="Basic example">
+                <Button variant="secondary">1</Button>
+                <Button variant="secondary">2</Button>
+                <Button variant="secondary">3</Button>
+                <Button variant="secondary">4</Button>
+            </ButtonGroup>
+        </Container>
     </>
   )
 }

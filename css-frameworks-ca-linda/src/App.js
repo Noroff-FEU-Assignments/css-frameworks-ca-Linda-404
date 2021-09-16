@@ -1,5 +1,5 @@
-
-import './App.css';
+import React from 'react'
+import './sass/style.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,7 +22,7 @@ function App() {
       <div>
       <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">the yay company</Navbar.Brand>
+                <Navbar.Brand href="#home">the YAY company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

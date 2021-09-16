@@ -1,0 +1,26 @@
+//costum
+$color-primary: #E92569;
+$color-secondary: #767676;
+$color-text: #0A0A0A;
+$color-nav: #EFEFEF;
+
+//bootstrap
+$theme-colors: (
+  "primary":    $color-primary,
+  "light":       $color-nav,
+);
+$border-radius: 3px;
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+
+$headings-color: $color-primary;
+$body-bg: #E5E5E5;
+$body-color: $color-text;
+
+$input-bg: #FFF;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/nav";
+@import "./partials/form";
+@import "./partials/tabs";

@@ -11,8 +11,10 @@ import FormControl from 'react-bootstrap/FormControl';
 function Contact() {
   return (
     <>
-      <h1>Submit your details</h1>
-
+      <Container>
+        <h1>Submit your details</h1>
+      </Container>
+   
       <Container>
         <Row>
         <Col md={{ order: 2 }}>
@@ -27,14 +29,11 @@ function Contact() {
             <Form>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Name" />
+                <Form.Control type="text" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
-                </Form.Text>
+                <Form.Control type="email" />
               </Form.Group>
 
               <Form.Label htmlFor="basic-url">Website</Form.Label>
@@ -45,13 +44,13 @@ function Contact() {
                   <FormControl id="basic-url" aria-describedby="basic-addon3" />
                 </InputGroup>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Example textarea</Form.Label>
+                <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={6} />
                 </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Allow us to sell your personal details to whomever we want" />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="disabled" type="submit">
                 Submit
               </Button>
             </Form>
