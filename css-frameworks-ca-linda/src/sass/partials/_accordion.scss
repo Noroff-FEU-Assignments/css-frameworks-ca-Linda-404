@@ -1,8 +1,37 @@
-.accordion-border {
-    border-radius: 12px;
-}
+// .accordion {
+//     margin-top: 2em;
+//     margin-bottom: 2em;
+//     border-radius: 12px;
 
+//     > .card {
+//         border-radius: 12px;
+//     }
+// }
+
+.accordion-header {
+    background-color: #FFF;
+}
+.accordion-body {
+    border-top: solid 2px $color-primary;
+    background-color: #F5F5F5;
+}
 .btn-link {
     color: $color-primary;
     text-decoration: none;
+}
+
+.accordion-social {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.accordion-social-item {
+    padding: 1em;
+}
+
+@media (max-width: 576px) {
+    .tab-image {
+        max-width: 100%;
+    }
 }

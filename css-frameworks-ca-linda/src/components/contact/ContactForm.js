@@ -6,7 +6,7 @@ import FormControl from 'react-bootstrap/FormControl';
 
 function ContactForm() {
   return (
-    <Form>
+    <Form className="contact-form">
         <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" />

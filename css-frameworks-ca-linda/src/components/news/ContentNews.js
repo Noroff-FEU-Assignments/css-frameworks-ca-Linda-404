@@ -17,7 +17,7 @@ function ContentNews() {
   return (
     <Row xs={"auto"} md={4}>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageOne} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -30,7 +30,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageTwo} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -43,7 +43,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageThree} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -56,7 +56,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageFour} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -69,7 +69,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageFive} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -82,7 +82,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageSix} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -95,7 +95,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageSeven} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -108,7 +108,7 @@ function ContentNews() {
             </Card>
         </Col>
         <Col>
-            <Card>
+            <Card className="news-card">
                 <Card.Img variant="top" src={newsImageEight} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>

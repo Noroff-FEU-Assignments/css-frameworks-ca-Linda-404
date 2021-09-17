@@ -24,3 +24,10 @@
 hr {
     display: none;
 }
+
+@media (max-width: 576px) {
+    .navbar {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}

@@ -10,64 +10,67 @@ function ContentAccordion() {
   return (
     <Accordion defaultActiveKey="0" className="d-md-none">
         <Card>
-            <Card.Header>
+            <Card.Header className="accordion-header">
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
                     First
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
-                <Card.Body>
+                <Card.Body className="accordion-body">
                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                     <img
-                        className="d-block w-10"
+                        className="d-block w-10 tab-image"
                         src={tabImageOne}
-                        alt="Third slide"
+                        alt="First slide"
                         />
-                    <div>share 
-                        <i class="fab fa-facebook-f"></i> 
-                        <i class="fab fa-twitter"></i>
+                    <div className="accordion-social">
+                        <div className="accordion-social-item">share</div> 
+                        <div className="accordion-social-item"><i class="fab fa-facebook-f"></i></div> 
+                        <div className="accordion-social-item"><i class="fab fa-twitter"></i></div>
                     </div>
                 </Card.Body>
             </Accordion.Collapse>
         </Card>
         <Card>
-            <Card.Header>
+            <Card.Header className="accordion-header">
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
                     Second
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
-                <Card.Body>
+                <Card.Body className="accordion-body">
                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                     <img
-                        className="d-block w-10"
+                        className="d-block w-10 tab-image"
                         src={tabImageTwo}
                         alt="Third slide"
                         />
-                    <div>share 
-                        <i class="fab fa-facebook-f"></i> 
-                        <i class="fab fa-twitter"></i>
+                    <div className="accordion-social">
+                        <div className="accordion-social-item">share</div> 
+                        <div className="accordion-social-item"><i class="fab fa-facebook-f"></i></div> 
+                        <div className="accordion-social-item"><i class="fab fa-twitter"></i></div>
                     </div>
                 </Card.Body>
             </Accordion.Collapse>
         </Card>
         <Card>
-            <Card.Header>
+            <Card.Header className="accordion-header">
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
                     Third
                 </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="2">
-                <Card.Body>
+                <Card.Body className="accordion-body">
                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                     <img
-                        className="d-block w-10"
+                        className="d-block w-10 tab-image"
                         src={tabImageThree}
                         alt="Third slide"
                         />
-                    <div>share 
-                        <i class="fab fa-facebook-f"></i> 
-                        <i class="fab fa-twitter"></i>
+                    <div className="accordion-social">
+                        <div className="accordion-social-item">share</div> 
+                        <div className="accordion-social-item"><i class="fab fa-facebook-f"></i></div> 
+                        <div className="accordion-social-item"><i class="fab fa-twitter"></i></div>
                     </div>
                 </Card.Body>
             </Accordion.Collapse>
