@@ -1,0 +1,11 @@
+.btn-group {
+    background-color: #FFF;
+    border: solid 2px $color-primary;
+}
+.btn-secondary {
+    color: $color-primary;
+}
+.btn-selected {
+    background-color: $color-primary;
+    color: #FFF;
+}

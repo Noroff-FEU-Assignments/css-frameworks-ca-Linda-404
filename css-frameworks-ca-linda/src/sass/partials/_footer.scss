@@ -1,0 +1,22 @@
+footer {
+    background-color: $color-nav;
+    color: $color-secondary;
+    font-size: 16px;
+    margin-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social {
+    display: flex;
+}
+.footer-social-link {
+    font-size: 25px;
+    padding-right: 1em;
+}

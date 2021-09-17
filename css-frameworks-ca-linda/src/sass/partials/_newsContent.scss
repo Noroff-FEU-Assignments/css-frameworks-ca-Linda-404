@@ -1,0 +1,13 @@
+.card {
+    border-radius: 12px;
+    margin-bottom: 1.5em;
+}
+.card-img-top {
+    border-radius: 12px 12px 0px 0px;
+}
+.btn-card-btn {
+    background-color: $color-primary;
+    border-right: solid 2em $color-secondary;
+    color: #fff;
+    width: 100%;
+}

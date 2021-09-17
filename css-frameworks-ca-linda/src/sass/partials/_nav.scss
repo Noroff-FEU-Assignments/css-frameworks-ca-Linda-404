@@ -1,3 +1,9 @@
+.navbar {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: $color-primary;
     font-family: $headings-font-family;
@@ -5,4 +11,16 @@
 .navbar-light .navbar-brand {
     color: $color-primary;
     font-family: $headings-font-family;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-search-button {
+    background-color: $color-primary;
+    color: #FFF;
+}
+
+hr {
+    display: none;
 }

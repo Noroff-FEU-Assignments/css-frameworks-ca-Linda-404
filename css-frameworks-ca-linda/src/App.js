@@ -21,8 +21,7 @@ function App() {
     <Router>
       <div>
       <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">the YAY company</Navbar.Brand>
+                <Navbar.Brand href="#home">The YAY company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -41,10 +40,9 @@ function App() {
                             className="mr-2"
                             aria-label="Search"
                         />
-                        <Button variant="outline-success">Search</Button>
+                        <Button variant="search-button">Go</Button>
                     </Form> 
                 </Navbar.Collapse>
-            </Container>
         </Navbar>
         {/* <ul>
           <li>

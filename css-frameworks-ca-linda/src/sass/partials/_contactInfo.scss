@@ -1,0 +1,12 @@
+.list-group-item {
+    background-color: $body-bg;
+    color: $color-secondary;
+    border: none;
+    display: flex;
+}
+.info-symbol {
+    font-size: 20px;
+}
+.info-item {
+    margin-left: 2em;
+}

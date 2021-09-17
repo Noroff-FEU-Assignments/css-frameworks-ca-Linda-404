@@ -21,6 +21,13 @@ $input-bg: #FFF;
 
 @import "~bootstrap/scss/bootstrap";
 
+@import "./partials/layout";
 @import "./partials/nav";
 @import "./partials/form";
+@import "./partials/contactInfo";
+@import "./partials/accordion";
 @import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/newsNav";
+@import "./partials/newsContent";
+@import "./partials/footer";
