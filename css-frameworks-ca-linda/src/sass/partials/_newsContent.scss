@@ -1,9 +1,13 @@
-.news-card {
+.card__content {
     border-radius: 12px;
     margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .card-img-top {
     border-radius: 12px 12px 0px 0px;
+}
+.card-body {
+    padding: 2em;
 }
 .btn-card-btn {
     background-color: $color-primary;

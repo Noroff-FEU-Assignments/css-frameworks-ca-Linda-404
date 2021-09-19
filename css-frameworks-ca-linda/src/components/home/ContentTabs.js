@@ -12,15 +12,15 @@ function ContentTabs() {
             <img
                 className="d-block w-10"
                 src={tabImageOne}
-                alt="Third slide"
+                alt="First slide"
                 />
-            <div className="tab-content-text">
+            <div className="tab__content__text">
                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                 <div style={{ backgroundImage: "url(~/Tabimages/tab-1.jpg)"}}></div>
-                <div className="tab-content-social">
-                    <div className="tab-content-social-item">SHARE</div>
-                    <div className="tab-content-social-item"><i class="fab fa-facebook-f"></i></div> 
-                    <div className="tab-content-social-item"><i class="fab fa-twitter"></i></div>
+                <div className="tab__content__social">
+                    <div className="tab__content__social__item">SHARE</div>
+                    <div className="tab__content__social__item"><i class="fab fa-facebook-f"></i></div> 
+                    <div className="tab__content__social__item"><i class="fab fa-twitter"></i></div>
                 </div>
             </div>
         </Tab>
@@ -30,12 +30,12 @@ function ContentTabs() {
                 src={tabImageTwo}
                 alt="Third slide"
                 />
-            <div className="tab-content-text">
+            <div className="tab__content__text">
                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
-                <div className="tab-content-social">
-                    <div className="tab-content-social-item">SHARE</div>
-                    <div className="tab-content-social-item"><i class="fab fa-facebook-f"></i></div> 
-                    <div className="tab-content-social-item"><i class="fab fa-twitter"></i></div>
+                <div className="tab__content__social">
+                    <div className="tab__content__social__item">SHARE</div>
+                    <div className="tab__content__social__item"><i class="fab fa-facebook-f"></i></div> 
+                    <div className="tab__content__social__item"><i class="fab fa-twitter"></i></div>
                 </div>
             </div>
         </Tab>
@@ -45,12 +45,12 @@ function ContentTabs() {
                 src={tabImageThree}
                 alt="Third slide"
                 />
-            <div className="tab-content-text">
+            <div className="tab__content__text">
                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
-                <div className="tab-content-social">
-                    <div className="tab-content-social-item">SHARE</div>
-                    <div className="tab-content-social-item"><i class="fab fa-facebook-f"></i></div> 
-                    <div className="tab-content-social-item"><i class="fab fa-twitter"></i></div>
+                <div className="tab__content__social">
+                    <div className="tab__content__social__item">SHARE</div>
+                    <div className="tab__content__social__item"><i class="fab fa-facebook-f"></i></div> 
+                    <div className="tab__content__social__item"><i class="fab fa-twitter"></i></div>
                 </div>
             </div>
         </Tab>

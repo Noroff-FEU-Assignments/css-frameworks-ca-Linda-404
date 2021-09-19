@@ -5,16 +5,16 @@ function ContactInfo() {
   return (
     <ListGroup>
         <ListGroup.Item>
-            <div className="info-symbol"><i class="fas fa-envelope"></i></div>
-            <div className="info-item">hello@yay.com</div>
+            <div className="info__symbol"><i class="fas fa-envelope"></i></div>
+            <div className="info__item">hello@yay.com</div>
         </ListGroup.Item>
         <ListGroup.Item>
-            <div className="info-symbol" ><i class="fas fa-phone"></i></div>
-            <div className="info-item" >123 456 7890</div>
+            <div className="info__symbol" ><i class="fas fa-phone"></i></div>
+            <div className="info__item" >123 456 7890</div>
         </ListGroup.Item>
         <ListGroup.Item>
-            <div className="info-symbol"><i class="fas fa-map-marker-alt"></i></div>
-            <div className="info-item">
+            <div className="info__symbol"><i class="fas fa-map-marker-alt"></i></div>
+            <div className="info__item">
                 <div>123 Some Street</div>
                 <div>Somewhere</div>
                 <div>Some City</div>

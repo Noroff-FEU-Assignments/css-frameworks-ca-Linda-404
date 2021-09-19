@@ -19,7 +19,7 @@ function Contact() {
             <ContactInfo />
           </Col>
           <Col className="d-md-none">
-            <h1>Submit your details</h1>
+            <h1 className="header">Submit your details</h1>
           </Col>
           <Col md={{ order: 1 }}>
             <ContactForm />

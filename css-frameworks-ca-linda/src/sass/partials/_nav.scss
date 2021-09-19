@@ -15,7 +15,9 @@
     font-weight: bold;
     font-style: italic;
 }
-
+.nav-link.active {
+    background-color: #fff;
+}
 .btn-search-button {
     background-color: $color-primary;
     color: #FFF;

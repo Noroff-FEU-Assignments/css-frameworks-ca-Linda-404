@@ -1,0 +1,16 @@
+.carousel-indicators li{
+    height: 1em;
+    width: 1em;
+    margin: 0.5em;
+    background-color: #fff;
+}
+
+.carousel-indicators li.active{
+    height: 1em;
+    width: 1em;
+    background-color: $color-primary;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+}

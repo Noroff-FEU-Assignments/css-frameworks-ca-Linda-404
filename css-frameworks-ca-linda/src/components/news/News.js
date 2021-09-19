@@ -8,7 +8,7 @@ function News() {
   return (
     <>
         <Container>
-            <h1>news</h1>
+            <h1>News</h1>
         </Container>
 
         <Container>

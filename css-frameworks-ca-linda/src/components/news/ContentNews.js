@@ -17,104 +17,96 @@ function ContentNews() {
   return (
     <Row xs={"auto"} md={4}>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageOne} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageTwo} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageThree} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageFour} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageFive} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageSix} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageSeven} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col>
-            <Card className="news-card">
+            <Card className="card__content">
                 <Card.Img variant="top" src={newsImageEight} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        <p>Nunc malesuada eget est fringilla dapibus.</p>
                     </Card.Text>
                     <Button variant="card-btn">MORE</Button>
                 </Card.Body>

@@ -1,17 +1,17 @@
-// .accordion {
-//     margin-top: 2em;
-//     margin-bottom: 2em;
-//     border-radius: 12px;
+.accordion {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
-//     > .card {
-//         border-radius: 12px;
-//     }
-// }
+    > .card {
+        border-radius: 12px;
+    }
+}
 
-.accordion-header {
+.accordion__header {
     background-color: #FFF;
 }
-.accordion-body {
+.accordion__body {
     border-top: solid 2px $color-primary;
     background-color: #F5F5F5;
 }
@@ -20,13 +20,13 @@
     text-decoration: none;
 }
 
-.accordion-social {
+.accordion__social {
     color: #000;
     display: flex;
     justify-content: center;
     font-size: 18px;
 }
-.accordion-social-item {
+.accordion__social__item {
     padding: 1em;
 }
 

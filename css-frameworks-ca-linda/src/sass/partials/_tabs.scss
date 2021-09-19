@@ -10,17 +10,17 @@
 .tab-content > .active {
     display: flex;
 }
-.tab-content-text {
+.tab__content__text {
     margin-left: 2em;
     margin-right: 4em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.tab-content-social {
+.tab__content__social {
     display: flex;
 }
-.tab-content-social-item {
+.tab__content__social__item {
     margin: 0.5em;
     font-size: 16px;
 }
